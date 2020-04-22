@@ -31,4 +31,3 @@ An analysis report of the entire process is included which again showed that eve
 The state of the threads at different times is shown below, where the higher value(5) means that it is in the wait state, while the lower value(2) means that it is running. The thread wait reason is applicable only when it is in the wait state and in our case corresponds to waiting for a common data structure, bufavail, based on the condition variables as explained before. 
 ![](https://github.com/AkankshaJjw/ComputerArchitecture/blob/master/Multithreading/thr_state.JPG)
 
-The commented code is included in the submission.
