@@ -1,11 +1,5 @@
 Akanksha Jhunjhunwala
 
-ajhunjhunwala6
-
-903331929
-
-Lab 4
-
 Problem: To implement a multi-threaded tracker and analyzer for video processing that takes in the Lenna image and rotates it 90 degrees counter- clockwise.
 
 Find: Analyze the thread processing time for this application and analyze the individual threads.
