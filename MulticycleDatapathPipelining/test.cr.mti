@@ -1,0 +1,89 @@
+{C:/Users/akanksha/Documents/ece 3057/lab1/EXECUTE.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/akanksha/Documents/ece 3057/lab1/EXECUTE.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity Execute
+-- Compiling architecture behavior of Execute
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/EXECUTE.vhd(54): (vcom-1136) Unknown identifier "Sign_exte".
+
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/EXECUTE.vhd(54): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/EXECUTE.vhd(54): near "nd": (vcom-1576) expecting ';'.
+
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/EXECUTE.vhd(80): VHDL Compiler exiting
+
+} {10.0 11.0 12.0 14.0 15.0 16.0} {}} {C:/Users/akanksha/Documents/ece 3057/lab1/IFETCH.VHD} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/akanksha/Documents/ece 3057/lab1/IFETCH.VHD}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/IFETCH.VHD(1): near "]": syntax error
+
+} {4.0 5.0} {}} {C:/Users/akanksha/Documents/ece 3057/lab1/DMEMORY.VHD} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/akanksha/Documents/ece 3057/lab1/DMEMORY.VHD}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity dmemory
+-- Compiling architecture behavior of dmemory
+
+} {} {}} {C:/Users/akanksha/Documents/ece 3057/lab1/CONTROL.VHD} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/akanksha/Documents/ece 3057/lab1/CONTROL.VHD}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity control
+-- Compiling architecture behavior of control
+
+} {} {}} {C:/Users/akanksha/Documents/ece 3057/lab1/MIPS.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/akanksha/Documents/ece 3057/lab1/MIPS.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity MIPS
+-- Compiling architecture structure of MIPS
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/MIPS.vhd(145): (vcom-1035) Formal port "IF_ID" has OPEN or no actual associated with it.
+
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/MIPS.vhd(183): VHDL Compiler exiting
+
+} {9.0 10.0 11.0 12.0} {}} {C:/Users/akanksha/Documents/ece 3057/lab1/IDECODE.VHD} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/akanksha/Documents/ece 3057/lab1/IDECODE.VHD}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Idecode
+-- Compiling architecture behavior of Idecode
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/IDECODE.VHD(85): Cannot read output "Sign_extend".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/IDECODE.VHD(86): Cannot read output "read_data_2".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/IDECODE.VHD(87): Cannot read output "read_data_1".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/IDECODE.VHD(89): (vcom-1136) Unknown identifier "ALUSrc".
+
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/IDECODE.VHD(90): (vcom-1136) Unknown identifier "ALUOp".
+
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/IDECODE.VHD(92): (vcom-1136) Unknown identifier "Branch".
+
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/IDECODE.VHD(97): VHDL Compiler exiting
+
+} {10.0 11.0 13.0 14.0 16.0 17.0 19.0 20.0 21.0 22.0 23.0 24.0 25.0 26.0} {}} {C:/Users/akanksha/Documents/ece 3057/lab1/HAZARD.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/akanksha/Documents/ece 3057/lab1/HAZARD.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+** Error: C:/Users/akanksha/Documents/ece 3057/lab1/HAZARD.vhd(15): near "EOF": syntax error
+
+} {8.0 9.0} {}}
