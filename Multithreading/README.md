@@ -6,13 +6,13 @@ Find: Analyze the thread processing time for this application and analyze the in
 
 Solution: Two threads are created, one for digitizer(), and one for tracker(). A thread for main is created automatically by the OS when the application is run. The three threads are shown in the screenshot below. The first thread is for digitizer, the second one is for tracker, and the third one is the automatically generated main thread.
 
-![](RackMultipart20200422-4-tng2pp_html_8e7a0fae857c6e4a.jpg)
+![](https://github.com/AkankshaJjw/ComputerArchitecture/blob/master/Multithreading/threads.JPG)
 
 The digitizer grabs an image from the buffer and the tracker analyzes it by rotating it 90 degrees to the left and storing it in a new file. The old and new files are shown side by side below.
 
-![](RackMultipart20200422-4-tng2pp_html_a89186dd4ad3a482.jpg)
+![](https://github.com/AkankshaJjw/ComputerArchitecture/blob/master/Multithreading/images.JPG)
 
-![](RackMultipart20200422-4-tng2pp_html_3828a75602eead0e.jpg)Analysis: The thread condition variables, buf\_notempty and buf\_notfull allow each thread to wait on a condition and blocks for a signal using pthread\_cond\_wait until the other thread signals it to wake up using pthread\_cond\_signal. In this screenshot showing the three threads, the highlighted thread, which is the thread for digitizer, is in the &#39;Wait:WrPushLock&#39; state, meaning that it is currently waiting for the buffer to not be full while the other thread is executing. It is seen that the second thread consumes much more cpu power than the first one which can be explained by the fact that it does more I/O operation and also has a nested for loop for rotating the image.
+![](https://github.com/AkankshaJjw/ComputerArchitecture/blob/master/Multithreading/threads2.JPG)Analysis: The thread condition variables, buf\_notempty and buf\_notfull allow each thread to wait on a condition and blocks for a signal using pthread\_cond\_wait until the other thread signals it to wake up using pthread\_cond\_signal. In this screenshot showing the three threads, the highlighted thread, which is the thread for digitizer, is in the &#39;Wait:WrPushLock&#39; state, meaning that it is currently waiting for the buffer to not be full while the other thread is executing. It is seen that the second thread consumes much more cpu power than the first one which can be explained by the fact that it does more I/O operation and also has a nested for loop for rotating the image.
 
 ![](RackMultipart20200422-4-tng2pp_html_d9051352f7c65950.jpg)The % processor time of each thread is shown in the performance report below. The pits in the graph for each thread indicate the times when that thread was blocked. The peaks could refer to the times when the thread was carrying out a more intensive operator, such as file IO.
 
