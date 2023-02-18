@@ -25,5 +25,3 @@ Solution: I made the following changes to implement pipelining.
 ![](https://github.com/AkankshaJjw/ComputerArchitecture/blob/master/MulticycleDatapathPipelining/fig3.jpg)
 
 **Fig. 3** Block diagram for pipelined datapath.
-
-Results: The vhdl code couldn&#39;t be debugged in time, so a simulation of the pipeline is not available.
